@@ -1,0 +1,44 @@
+/* App.css */
+
+.app-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.quiz-end {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.quiz-question {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.question-text {
+  margin-bottom: 20px;
+}
+
+.answer-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.answer-button:hover {
+  background-color: #45a049;
+}
